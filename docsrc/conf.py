@@ -125,10 +125,11 @@ todo_include_todos = False
 import sphinx_rtd_theme
 
 html_theme = 'sphinx_rtd_theme'
-html_logo = "./_static/logo3.png"
+html_logo = "./_static/dwr_logo_small.png"
 html_theme_options = {
     'logo_only': True,
-    'display_version': False
+    'display_version': False,
+    'prev_next_buttons_location': 'both'
 }
 
 # Theme options are theme-specific and customize the look and feel of a
