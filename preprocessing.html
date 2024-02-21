@@ -1,133 +1,555 @@
-<!-- Empty override file take the place of env/lib/python3.8/site-packages/sphinx_rtd_theme/breadcrumbs.html, which generates the top nav breadcrumbs. --><!DOCTYPE html>
-<html class="writer-html5" lang="en" data-content_root="./">
-<head>
-  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+<!-- Empty override file take the place of env/lib/python3.8/site-packages/sphinx_rtd_theme/breadcrumbs.html, which generates the top nav breadcrumbs. -->
+<!DOCTYPE html>
 
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Preprocessing &mdash; schimpy 0+untagged.1.g0177cc4 documentation</title>
-      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=fa44fd50" />
-      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=19f00094" />
-      <link rel="stylesheet" type="text/css" href="_static/plot_directive.css" />
+
+<html lang="en" data-content_root="./" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Preprocessing &#8212; schimpy 0+untagged.1.g79b63c9 documentation</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="_static/styles/theme.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+<link href="_static/styles/bootstrap.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+<link href="_static/styles/pydata-sphinx-theme.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
 
   
-  <!--[if lt IE 9]>
-    <script src="_static/js/html5shiv.min.js"></script>
-  <![endif]-->
+  <link href="_static/vendor/fontawesome/6.5.1/css/all.min.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.1/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.1/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.1/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=fa44fd50" />
+    <link rel="stylesheet" type="text/css" href="_static/plot_directive.css" />
   
-        <script src="_static/jquery.js?v=5d32c60e"></script>
-        <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-        <script src="_static/documentation_options.js?v=2f1c9830"></script>
-        <script src="_static/doctools.js?v=888ff710"></script>
-        <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
-        <script crossorigin="anonymous" integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
-    <script src="_static/js/theme.js"></script>
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=8d27b9dea8ad943066ae" />
+<link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=8d27b9dea8ad943066ae" />
+  <script src="_static/vendor/fontawesome/6.5.1/js/all.min.js?digest=8d27b9dea8ad943066ae"></script>
+
+    <script src="_static/documentation_options.js?v=ffab58f1"></script>
+    <script src="_static/doctools.js?v=888ff710"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script crossorigin="anonymous" integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'preprocessing';</script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="next" title="Working with SMS" href="sms.html" />
     <link rel="prev" title="SCHISM Spatial Data" href="spatial.html" />
     <link href="_static/style.css" rel="stylesheet" type="text/css">
 
-</head>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
 
-<body class="wy-body-for-nav"> 
-  <div class="wy-grid-for-nav">
-    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
-      <div class="wy-side-scroll">
-        <div class="wy-side-nav-search" >
+  
+  
+  <a id="pst-skip-link" class="skip-link" href="#main-content">Skip to main content</a>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>
+    Back to top
+  </button>
 
-          
-          
-          <a href="index.html">
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__primary"
+          id="__primary"/>
+  <label class="overlay overlay-primary" for="__primary"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__secondary"
+          id="__secondary"/>
+  <label class="overlay overlay-secondary" for="__secondary"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search the docs ..."
+         aria-label="Search the docs ..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar">
+<div class="bd-header__inner bd-page-width">
+  <label class="sidebar-toggle primary-toggle" for="__primary">
+    <span class="fa-solid fa-bars"></span>
+  </label>
+  
+  
+  <div class="col-lg-3 navbar-header-items__start">
+    
+      <div class="navbar-item">
+
+  
+
+<a class="navbar-brand logo" href="index.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="_static/dwr_logo_small.png" class="logo__image only-light" alt="schimpy 0+untagged.1.g79b63c9 documentation - Home"/>
+    <script>document.write(`<img src="_static/dwr_logo_small.png" class="logo__image only-dark" alt="schimpy 0+untagged.1.g79b63c9 documentation - Home"/>`);</script>
+  
+  
+</a></div>
+    
+  </div>
+  
+  <div class="col-lg-9 navbar-header-items">
+    
+    <div class="me-auto navbar-header-items__center">
+      
+        <div class="navbar-item">
+<nav class="navbar-nav">
+  <ul class="bd-navbar-elements navbar-nav">
+    
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="installation.html">
+                        Installation
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="spatial.html">
+                        Spatial data in SCHISM
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item current active">
+                      <a class="nav-link nav-internal" href="#">
+                        Pre-processing
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="sms.html">
+                        Working with SMS
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="model_time.html">
+                        Model time
+                      </a>
+                    </li>
+                
+            <li class="nav-item dropdown">
+                <button class="btn dropdown-toggle nav-item" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-controls="pst-nav-more-links">
+                    More
+                </button>
+                <ul id="pst-nav-more-links" class="dropdown-menu">
+                    
+                    <li class="nav-item">
+                      <a class="nav-link dropdown-item nav-internal" href="depth.html">
+                        Populating Elevation/Depth Data
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link dropdown-item nav-internal" href="hotstart.html">
+                        Creating hotstart
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link dropdown-item nav-internal" href="nudging.html">
+                        Creating nudging
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link dropdown-item nav-internal" href="postprocessing.html">
+                        Post-processing
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link dropdown-item nav-internal" href="performance.html">
+                        Evaluating Model Performance
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link dropdown-item nav-internal" href="direct_use.html">
+                        Using Python Pre-processing Script Programatically
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link dropdown-item nav-internal" href="modules.html">
+                        Modules
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link dropdown-item nav-internal" href="history.html">
+                        History
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link dropdown-item nav-internal" href="license_and_disclaimer.html">
+                        License
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link dropdown-item nav-internal" href="contributing.html">
+                        Contributing
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link dropdown-item nav-internal" href="authors.html">
+                        Authors
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link dropdown-item nav-internal" href="readme.html">
+                        Project README
+                      </a>
+                    </li>
+                
+                </ul>
+            </li>
             
-              <img src="_static/logo3.png" class="logo" alt="Logo"/>
-          </a>
-<div role="search">
-  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
-    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
-    <input type="hidden" name="check_keywords" value="yes" />
-    <input type="hidden" name="area" value="default" />
-  </form>
-</div>
-        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
-              <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="installation.html">Installation</a></li>
-<li class="toctree-l1"><a class="reference internal" href="spatial.html">Spatial data in SCHISM</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Pre-processing</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#invoking-the-preprocessor">Invoking the preprocessor</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#prepare-schism-py">prepare_SCHISM.py</a></li>
-</ul>
-</li>
-<li class="toctree-l2"><a class="reference internal" href="#input-files">Input Files</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#main-input-file">Main Input File</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="#mesh">Mesh</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#variable-substitution">Variable Substitution</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#generate-gr3-with-constant">Generate gr3 with Constant</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#generate-gr3-from-polygons">Generate gr3 from polygons</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#generate-prop-with-polygons">Generate prop with Polygons</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#hydraulic-structures">Hydraulic Structures</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#source-sink">Source/Sink</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#flow-output-requests">Flow Output Requests</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#complete-example">Complete Example</a></li>
-</ul>
-</li>
-<li class="toctree-l3"><a class="reference internal" href="#dem-list-file">DEM List File</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#depth-optimization-parameter-file">Depth Optimization Parameter File</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#open-boundary-input">Open Boundary Input</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#polygon-input">Polygon Input</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="#attribute">Attribute</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#type">Type</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#vertices">Vertices</a></li>
-</ul>
-</li>
-<li class="toctree-l3"><a class="reference internal" href="#hydraulic-structures-input">Hydraulic Structures Input</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#source-sink-input">Source/Sink Input</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#flow-output-input">Flow Output Input</a></li>
-</ul>
-</li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="sms.html">Working with SMS</a></li>
-<li class="toctree-l1"><a class="reference internal" href="model_time.html">Model time</a></li>
-<li class="toctree-l1"><a class="reference internal" href="depth.html">Populating Elevation/Depth Data</a></li>
-<li class="toctree-l1"><a class="reference internal" href="hotstart.html">Creating hotstart</a></li>
-<li class="toctree-l1"><a class="reference internal" href="nudging.html">Creating nudging</a></li>
-<li class="toctree-l1"><a class="reference internal" href="postprocessing.html">Post-processing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="performance.html">Evaluating Model Performance</a></li>
-<li class="toctree-l1"><a class="reference internal" href="direct_use.html">Using Python Pre-processing Script Programatically</a></li>
-<li class="toctree-l1"><a class="reference internal" href="modules.html">Modules</a></li>
-<li class="toctree-l1"><a class="reference internal" href="history.html">History</a></li>
-<li class="toctree-l1"><a class="reference internal" href="license_and_disclaimer.html">License</a></li>
-<li class="toctree-l1"><a class="reference internal" href="contributing.html">Contributing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="authors.html">Authors</a></li>
-<li class="toctree-l1"><a class="reference internal" href="readme.html">Project README</a></li>
-</ul>
+  </ul>
+</nav></div>
+      
+    </div>
+    
+    
+    <div class="navbar-header-items__end">
+      
+        <div class="navbar-item navbar-persistent--container">
+          
 
+ <script>
+ document.write(`
+   <button class="btn navbar-btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script>
         </div>
+      
+      
+        <div class="navbar-item">
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch nav-link" data-mode="light"><i class="fa-solid fa-sun fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="dark"><i class="fa-solid fa-moon fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg"></i></span>
+  </button>
+`);
+</script></div>
+      
+    </div>
+    
+  </div>
+  
+  
+    <div class="navbar-persistent--mobile">
+
+ <script>
+ document.write(`
+   <button class="btn navbar-btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script>
+    </div>
+  
+
+  
+    <label class="sidebar-toggle secondary-toggle" for="__secondary" tabindex="0">
+      <span class="fa-solid fa-outdent"></span>
+    </label>
+  
+</div>
+
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+      <div class="sidebar-header-items__center">
+        
+          <div class="navbar-item">
+<nav class="navbar-nav">
+  <ul class="bd-navbar-elements navbar-nav">
+    
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="installation.html">
+                        Installation
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="spatial.html">
+                        Spatial data in SCHISM
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item current active">
+                      <a class="nav-link nav-internal" href="#">
+                        Pre-processing
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="sms.html">
+                        Working with SMS
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="model_time.html">
+                        Model time
+                      </a>
+                    </li>
+                
+            <li class="nav-item dropdown">
+                <button class="btn dropdown-toggle nav-item" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-controls="pst-nav-more-links-2">
+                    More
+                </button>
+                <ul id="pst-nav-more-links-2" class="dropdown-menu">
+                    
+                    <li class="nav-item">
+                      <a class="nav-link dropdown-item nav-internal" href="depth.html">
+                        Populating Elevation/Depth Data
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link dropdown-item nav-internal" href="hotstart.html">
+                        Creating hotstart
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link dropdown-item nav-internal" href="nudging.html">
+                        Creating nudging
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link dropdown-item nav-internal" href="postprocessing.html">
+                        Post-processing
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link dropdown-item nav-internal" href="performance.html">
+                        Evaluating Model Performance
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link dropdown-item nav-internal" href="direct_use.html">
+                        Using Python Pre-processing Script Programatically
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link dropdown-item nav-internal" href="modules.html">
+                        Modules
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link dropdown-item nav-internal" href="history.html">
+                        History
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link dropdown-item nav-internal" href="license_and_disclaimer.html">
+                        License
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link dropdown-item nav-internal" href="contributing.html">
+                        Contributing
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link dropdown-item nav-internal" href="authors.html">
+                        Authors
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link dropdown-item nav-internal" href="readme.html">
+                        Project README
+                      </a>
+                    </li>
+                
+                </ul>
+            </li>
+            
+  </ul>
+</nav></div>
+        
       </div>
-    </nav>
+    
+    
+    
+      <div class="sidebar-header-items__end">
+        
+          <div class="navbar-item">
 
-    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
-          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-          <a href="index.html">schimpy</a>
-      </nav>
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch nav-link" data-mode="light"><i class="fa-solid fa-sun fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="dark"><i class="fa-solid fa-moon fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg"></i></span>
+  </button>
+`);
+</script></div>
+        
+      </div>
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+<nav class="bd-docs-nav bd-links"
+     aria-label="Section Navigation">
+  <p class="bd-links__title" role="heading" aria-level="1">Section Navigation</p>
+  <div class="bd-toc-item navbar-nav"></div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
 
-      <div class="wy-nav-content">
-        <div class="rst-content">
-          <!-- Empty override file take the place of env/lib/python3.8/site-packages/sphinx_rtd_theme/breadcrumbs.html, which generates the top nav breadcrumbs. -->
-          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
-           <div itemprop="articleBody">
-             
+
+      </div>
+      
+      <main id="main-content" class="bd-main">
+        
+        
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><!-- Empty override file take the place of env/lib/python3.8/site-packages/sphinx_rtd_theme/breadcrumbs.html, which generates the top nav breadcrumbs. --></div>
+      
+    </div>
+  
+  
+</div>
+</div>
+              
+              
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
   <p>_preprocessor:</p>
 <section id="preprocessing">
-<h1>Preprocessing<a class="headerlink" href="#preprocessing" title="Link to this heading"></a></h1>
+<h1>Preprocessing<a class="headerlink" href="#preprocessing" title="Link to this heading">#</a></h1>
 <section id="invoking-the-preprocessor">
-<h2>Invoking the preprocessor<a class="headerlink" href="#invoking-the-preprocessor" title="Link to this heading"></a></h2>
+<h2>Invoking the preprocessor<a class="headerlink" href="#invoking-the-preprocessor" title="Link to this heading">#</a></h2>
 <section id="prepare-schism-py">
-<h3>prepare_SCHISM.py<a class="headerlink" href="#prepare-schism-py" title="Link to this heading"></a></h3>
+<h3>prepare_SCHISM.py<a class="headerlink" href="#prepare-schism-py" title="Link to this heading">#</a></h3>
 </section>
 </section>
 <section id="input-files">
-<h2>Input Files<a class="headerlink" href="#input-files" title="Link to this heading"></a></h2>
+<h2>Input Files<a class="headerlink" href="#input-files" title="Link to this heading">#</a></h2>
 <p>Information in the input files of the pre-processor are provided in geophysical coordinates.  This information will be translated into SCHISM native input, which are based on node and element indices.</p>
 <p>The pre-processing input uses the human-readable YAML format.  See the <a class="reference external" href="http://en.wikipedia.org/wiki/YAML">YAML</a> Wikipedia page for an introduction.
 YAML format is intuitive and you probably can learn it from copying and and modifying sample inputs.
@@ -138,13 +560,13 @@ A few key things about YAML syntex include:</p>
 <li><p>Associative arrays are denoted using the colon space (: ) and forms key: vaule, which is a hash table/dictionary/mapping in effect.</p></li>
 </ul>
 <section id="main-input-file">
-<h3>Main Input File<a class="headerlink" href="#main-input-file" title="Link to this heading"></a></h3>
+<h3>Main Input File<a class="headerlink" href="#main-input-file" title="Link to this heading">#</a></h3>
 <p>The main input contains multiple blocks each of which either points to subordinate input files or
 explicitly assigns values. We typically use the file name <em>input.yaml</em>. There are many potential
 functions you can list in the main input file, but most of these other than an input mesh are optional
 – it is perfectly acceptable to use the preprocessor as a way to launch an individual task.</p>
 <section id="mesh">
-<h4>Mesh<a class="headerlink" href="#mesh" title="Link to this heading"></a></h4>
+<h4>Mesh<a class="headerlink" href="#mesh" title="Link to this heading">#</a></h4>
 <p>This section guides the conversion of a mesh from SMS format and the assignment and optimization
 of depths. The section can have five items as shown below:</p>
 <div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">mesh</span><span class="p">:</span>
@@ -174,7 +596,7 @@ of depths. The section can have five items as shown below:</p>
 <p>The item, ‘mesh input file’, must be provided, but the others are optional. If an item is missing, a corresponding job is not conducted, e.g. ‘depth optimization file’ is not given, the optimization will not run.</p>
 </section>
 <section id="variable-substitution">
-<h4>Variable Substitution<a class="headerlink" href="#variable-substitution" title="Link to this heading"></a></h4>
+<h4>Variable Substitution<a class="headerlink" href="#variable-substitution" title="Link to this heading">#</a></h4>
 <p>The main input supports substitution of variables. Variables defined in the env section will be substituted in any variables in the other sections. In an example shown below,</p>
 <div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">env</span><span class="p">:</span>
 <span class="w">  </span><span class="nt">input_dir</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">../run71</span>
@@ -186,7 +608,7 @@ of depths. The section can have five items as shown below:</p>
 variable name for replacement should be denoted with $ sign and curly braces as shown in the example.</p>
 </section>
 <section id="generate-gr3-with-constant">
-<h4>Generate gr3 with Constant<a class="headerlink" href="#generate-gr3-with-constant" title="Link to this heading"></a></h4>
+<h4>Generate gr3 with Constant<a class="headerlink" href="#generate-gr3-with-constant" title="Link to this heading">#</a></h4>
 <p>SCHISM uses the gr3 format for spatial input specified at nodes. The main horizontal grid file <em>hgrid.gr3</em>
 is in a slightly extended form of this format that includes boundary specifications. For other spatial data,
 the z or value column could specify roughness, diffusivity or other spatial parameters.</p>
@@ -202,7 +624,7 @@ the z or value column could specify roughness, diffusivity or other spatial para
 <p>This section creates gr3 files that have the same mesh structure and coordinates as the final output mesh, but the original depth values will be replaced with constants given in this section as properties assigned at nodes. For example, ‘xlsc.gr3: 0.1’ will create a gr3 file name ‘xlsc.gr3’ that has the same mesh information but the z-values of all nodes will be set to 0.1.</p>
 </section>
 <section id="generate-gr3-from-polygons">
-<h4>Generate gr3 from polygons<a class="headerlink" href="#generate-gr3-from-polygons" title="Link to this heading"></a></h4>
+<h4>Generate gr3 from polygons<a class="headerlink" href="#generate-gr3-from-polygons" title="Link to this heading">#</a></h4>
 <p>It is also possible to create a gr3 format file using polygons, assigning values using a formula or constant within
 each region.:</p>
 <div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">gr3 with polygons</span><span class="p">:</span>
@@ -217,13 +639,13 @@ each region.:</p>
 <p>Similar to the previous section ‘gr3 with constant’ this section creates gr3 files that have the same mesh structure and horizontal coordinates as the final output mesh but with modified depth values specified in polygon files. A polygon file can have multiple polygons with constants or equations. See the format of the <a class="reference internal" href="#polygon-input"><span class="std std-ref">Polygon Input</span></a> for further information.</p>
 </section>
 <section id="generate-prop-with-polygons">
-<h4>Generate prop with Polygons<a class="headerlink" href="#generate-prop-with-polygons" title="Link to this heading"></a></h4>
+<h4>Generate prop with Polygons<a class="headerlink" href="#generate-prop-with-polygons" title="Link to this heading">#</a></h4>
 <p>The *.prop file differs from the *.gr3 file in that it is element centered. The ‘prop with polygons’ section
 generates these files from regions delineated by polygons:</p>
 <p>When any of nodes of an element falls in a polygon, the element will get the attribute of the polygon. The output file format, ‘prop’ contains properties of elements of the mesh without mesh information whereas ‘gr3’ format can have only nodal properties (usually depth) with mesh information. A typical prop input is ‘tvd.prop’ designating where TVD will be applied.</p>
 </section>
 <section id="hydraulic-structures">
-<h4>Hydraulic Structures<a class="headerlink" href="#hydraulic-structures" title="Link to this heading"></a></h4>
+<h4>Hydraulic Structures<a class="headerlink" href="#hydraulic-structures" title="Link to this heading">#</a></h4>
 <p>The next section in the main input is ‘hydraulics’. It has two sets of items: ‘input file’ and ‘output file’ as shown below. The scripts reads structure locations and configuration from the input file, and creates SCHISM native hydraulics structure input file. See the detail of the hydraulic structure input file at <a class="reference internal" href="#structure-input"><span class="std std-ref">Hydraulic Structures Input</span></a>.</p>
 <div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">hydraulics</span><span class="p">:</span>
 <span class="w">  </span><span class="nt">input file</span><span class="p">:</span><span class="w">  </span><span class="l l-Scalar l-Scalar-Plain">hydraulics.yaml</span>
@@ -232,11 +654,11 @@ generates these files from regions delineated by polygons:</p>
 </div>
 </section>
 <section id="source-sink">
-<h4>Source/Sink<a class="headerlink" href="#source-sink" title="Link to this heading"></a></h4>
+<h4>Source/Sink<a class="headerlink" href="#source-sink" title="Link to this heading">#</a></h4>
 <p>The next section is ‘source/sink.’ It has two sets of items similarly to ‘hydraulics’: ‘input file’ and ‘output file’ as shown below. See the detail of source/sink input file at <a class="reference internal" href="#sourcesink-input"><span class="std std-ref">Source/Sink Input</span></a>.</p>
 </section>
 <section id="flow-output-requests">
-<h4>Flow Output Requests<a class="headerlink" href="#flow-output-requests" title="Link to this heading"></a></h4>
+<h4>Flow Output Requests<a class="headerlink" href="#flow-output-requests" title="Link to this heading">#</a></h4>
 <p>The last section is ‘flow output.’ It has two sets of items similarly to the previous block: ‘input file’ and ‘output file’ as shown below. See the details of the format of the input at <a class="reference internal" href="#flowoutput-input"><span class="std std-ref">Flow Output Input</span></a>.</p>
 <div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">flow output</span><span class="p">:</span>
 <span class="w">  </span><span class="nt">input file</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">flowlines.yaml</span>
@@ -245,7 +667,7 @@ generates these files from regions delineated by polygons:</p>
 </div>
 </section>
 <section id="complete-example">
-<h4>Complete Example<a class="headerlink" href="#complete-example" title="Link to this heading"></a></h4>
+<h4>Complete Example<a class="headerlink" href="#complete-example" title="Link to this heading">#</a></h4>
 <p>An example of a whole main input is shown below:</p>
 <div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="c1"># Input intended for year 2009 run with mesh ver 71.</span>
 <span class="nt">env</span><span class="p">:</span>
@@ -283,7 +705,7 @@ generates these files from regions delineated by polygons:</p>
 </section>
 </section>
 <section id="dem-list-file">
-<span id="id1"></span><h3>DEM List File<a class="headerlink" href="#dem-list-file" title="Link to this heading"></a></h3>
+<span id="id1"></span><h3>DEM List File<a class="headerlink" href="#dem-list-file" title="Link to this heading">#</a></h3>
 <p>This file is a simple text file containing a list of DEM files in tiff format. Each line is one file name with path information. See the example below.</p>
 <div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span>
 </pre></div>
@@ -301,7 +723,7 @@ generates these files from regions delineated by polygons:</p>
 <p>The DEM list is used to retrieve elevation at nodes or quadrature points of the mesh processing and grid optimization. The ordering of the DEM files matters because upper ones in the list will be used first and lower ones will fill area where the upper ones do not cover consecutively.</p>
 </section>
 <section id="depth-optimization-parameter-file">
-<span id="id2"></span><h3>Depth Optimization Parameter File<a class="headerlink" href="#depth-optimization-parameter-file" title="Link to this heading"></a></h3>
+<span id="id2"></span><h3>Depth Optimization Parameter File<a class="headerlink" href="#depth-optimization-parameter-file" title="Link to this heading">#</a></h3>
 <p>This file contains for parameters for depth optimization. See the depth optimization documentation for details.</p>
 <div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">damp</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">0.2</span>
 <span class="nt">damp_shoreline</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">10.0</span>
@@ -311,7 +733,7 @@ generates these files from regions delineated by polygons:</p>
 </div>
 </section>
 <section id="open-boundary-input">
-<span id="openboundary-input"></span><h3>Open Boundary Input<a class="headerlink" href="#open-boundary-input" title="Link to this heading"></a></h3>
+<span id="openboundary-input"></span><h3>Open Boundary Input<a class="headerlink" href="#open-boundary-input" title="Link to this heading">#</a></h3>
 <p>Typically a domain of a open water body has multiple open boundaries such as oceans or rivers. SCHISM needs to know the locations of those open boundaries in the list of node indices. This tool generates a string of boundary nodes from two sets of coordinates, which represent both ends of an open boundary.</p>
 <p>Each section name in the file is a name of an open boundary, and the four following values represents two pairs of x and y coordinates for the ends of the open boundary. They do not needs to be in one line or two. It is recommended to write the ordering of the open boundaries and two pairs of each open boundary in counter-clockwise fashion.</p>
 <div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="c1"># Open Boundary input sample</span>
@@ -324,20 +746,20 @@ generates these files from regions delineated by polygons:</p>
 </div>
 </section>
 <section id="polygon-input">
-<span id="id3"></span><h3>Polygon Input<a class="headerlink" href="#polygon-input" title="Link to this heading"></a></h3>
+<span id="id3"></span><h3>Polygon Input<a class="headerlink" href="#polygon-input" title="Link to this heading">#</a></h3>
 <p>The polygon input format is used to specify certain values at regions covered by polygons. The use cases are: deepening or imposing minimum depth in some regions, setting up initial values, setting nudging factors, and etc.</p>
 <p>The format can start with a default value. If the default value is given, the value is filled in the area that is not covered by any of the polygons in the polygon file. If the default value is not given, the original value from the mesh, which is typically depth, is kept.</p>
 <p>Each polygon entry starts with a name of a polygon in ‘polygons’ section and can have three key-value pairs: attribute, type, and vertices.</p>
 <section id="attribute">
-<h4>Attribute<a class="headerlink" href="#attribute" title="Link to this heading"></a></h4>
+<h4>Attribute<a class="headerlink" href="#attribute" title="Link to this heading">#</a></h4>
 <p>The item, ‘attribute’ is a constant value or an equation associated with the polygon. The equation follows Python syntax. In equation, you can use three variables, x, y, and z, which are coordinates of nodes. See an example of the equation use below.</p>
 </section>
 <section id="type">
-<h4>Type<a class="headerlink" href="#type" title="Link to this heading"></a></h4>
+<h4>Type<a class="headerlink" href="#type" title="Link to this heading">#</a></h4>
 <p>The item, ‘type’ is optional. Possible values for ‘type’ are ‘max,’ ‘min,’ and ‘none.’ If the value is not given, it is assumed ‘none.’ When ‘type’ is ‘min,’ the given value is compared with current values (depth) at nodes in the polygon in the mesh, and the given value will be used when the depth value is smaller that the given value in order to impose minimum depth (or value.) When ‘type’ is ‘max,’ vice versa. When ‘type’ in ‘none,’ the given value will be used.</p>
 </section>
 <section id="vertices">
-<h4>Vertices<a class="headerlink" href="#vertices" title="Link to this heading"></a></h4>
+<h4>Vertices<a class="headerlink" href="#vertices" title="Link to this heading">#</a></h4>
 <p>The item, ‘vertices’ are a list of pairs of x and y coordinates of vertices of the polygon. See an example below:</p>
 <div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">default</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">1</span>
 <span class="nt">polygons</span><span class="p">:</span>
@@ -363,7 +785,7 @@ generates these files from regions delineated by polygons:</p>
 </section>
 </section>
 <section id="hydraulic-structures-input">
-<span id="structure-input"></span><h3>Hydraulic Structures Input<a class="headerlink" href="#hydraulic-structures-input" title="Link to this heading"></a></h3>
+<span id="structure-input"></span><h3>Hydraulic Structures Input<a class="headerlink" href="#hydraulic-structures-input" title="Link to this heading">#</a></h3>
 <p>The hydraulic structures module allows structures to be superimposed on the mesh, effectively substituting a coupled boundary condition based on a flow equation for a weir, gate or culvert.
 See an example below, as well as the pdf guide to hydraulic structures in SCHISM which contains detailed information on the structure types that
 are supported.</p>
@@ -443,7 +865,7 @@ to assess water levels for purposes of calculating structure flow.</p>
 </div>
 </section>
 <section id="source-sink-input">
-<span id="sourcesink-input"></span><h3>Source/Sink Input<a class="headerlink" href="#source-sink-input" title="Link to this heading"></a></h3>
+<span id="sourcesink-input"></span><h3>Source/Sink Input<a class="headerlink" href="#source-sink-input" title="Link to this heading">#</a></h3>
 <p>The source/sink input for the pre-processing has two sections, ‘sinks’ and ‘sources,’ and each section simply has list of name and location pairs. Each location of source/sink will be translated into an element index. If a source or sink location does not fall in the mesh, the script automatically finds the nearest element from it and assign the source or sink to the element.</p>
 <p>Users must provide time series files, ‘vsource.th’ and ‘vsink.th’ for the amount of the source and sink flow in the same ordering that is presented in this input. For source flows, salinity and temperature of the flows need to be provided in ‘msource.th’ in the same ordering of sources in this input.</p>
 <div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="c1"># Source/sink sample</span>
@@ -457,7 +879,7 @@ to assess water levels for purposes of calculating structure flow.</p>
 </div>
 </section>
 <section id="flow-output-input">
-<span id="flowoutput-input"></span><h3>Flow Output Input<a class="headerlink" href="#flow-output-input" title="Link to this heading"></a></h3>
+<span id="flowoutput-input"></span><h3>Flow Output Input<a class="headerlink" href="#flow-output-input" title="Link to this heading">#</a></h3>
 <p>The flow output input simply comprises a list of line segments paired with the names of output locations as shown below. The ordering of the end points of the line segment decides the orientation of the flow output. As you face the nominal downstream
 direction of the flow output, the starting coordinate is on your left and the ending on your right. Two end points of a line segment should be outside of the mesh to make sure the flow line segment is not leaky.</p>
 <div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="c1"># Flow output location sample</span>
@@ -470,34 +892,149 @@ direction of the flow output, the starting coordinate is on your left and the en
 </section>
 
 
-           </div>
-          </div>
-          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
-        <a href="spatial.html" class="btn btn-neutral float-left" title="SCHISM Spatial Data" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
-        <a href="sms.html" class="btn btn-neutral float-right" title="Working with SMS" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
-    </div>
-
-  <hr/>
-
-  <div role="contentinfo">
-    <p>&#169; Copyright 2020, California Department of Water Resources.</p>
-  </div>
-
-  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
-    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
-    provided by <a href="https://readthedocs.org">Read the Docs</a>.
-   
-
-</footer>
-        </div>
+                </article>
+              
+              
+              
+              
+              
+                <footer class="prev-next-footer">
+                  
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="spatial.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">SCHISM Spatial Data</p>
       </div>
-    </section>
+    </a>
+    <a class="right-next"
+       href="sms.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Working with SMS</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+<div
+    id="pst-page-navigation-heading-2"
+    class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> On this page
   </div>
-  <script>
-      jQuery(function () {
-          SphinxRtdTheme.Navigation.enable(true);
-      });
-  </script>  
+  <nav class="bd-toc-nav page-toc" aria-labelledby="pst-page-navigation-heading-2">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#invoking-the-preprocessor">Invoking the preprocessor</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#prepare-schism-py">prepare_SCHISM.py</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#input-files">Input Files</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#main-input-file">Main Input File</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#mesh">Mesh</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#variable-substitution">Variable Substitution</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#generate-gr3-with-constant">Generate gr3 with Constant</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#generate-gr3-from-polygons">Generate gr3 from polygons</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#generate-prop-with-polygons">Generate prop with Polygons</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#hydraulic-structures">Hydraulic Structures</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#source-sink">Source/Sink</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#flow-output-requests">Flow Output Requests</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#complete-example">Complete Example</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#dem-list-file">DEM List File</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#depth-optimization-parameter-file">Depth Optimization Parameter File</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#open-boundary-input">Open Boundary Input</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#polygon-input">Polygon Input</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#attribute">Attribute</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#type">Type</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#vertices">Vertices</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#hydraulic-structures-input">Hydraulic Structures Input</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#source-sink-input">Source/Sink Input</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#flow-output-input">Flow Output Input</a></li>
+</ul>
+</li>
+</ul>
+  </nav></div>
+
+  <div class="sidebar-secondary-item">
+
+  <div class="tocsection sourcelink">
+    <a href="_sources/preprocessing.rst.txt">
+      <i class="fa-solid fa-file-lines"></i> Show Source
+    </a>
+  </div>
+</div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+          </footer>
+        
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="_static/scripts/bootstrap.js?digest=8d27b9dea8ad943066ae"></script>
+<script src="_static/scripts/pydata-sphinx-theme.js?digest=8d27b9dea8ad943066ae"></script>
+ 
+  <footer class="bd-footer">
+<div class="bd-footer__inner bd-page-width">
+  
+    <div class="footer-items__start">
+      
+        <div class="footer-item">
+
+  <p class="copyright">
+    
+      © Copyright 2020, California Department of Water Resources.
+      <br/>
+    
+  </p>
+</div>
+      
+        <div class="footer-item">
+
+  <p class="sphinx-version">
+    Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 7.2.6.
+    <br/>
+  </p>
+</div>
+      
+    </div>
+  
+  
+  
+    <div class="footer-items__end">
+      
+        <div class="footer-item">
+<p class="theme-version">
+  Built with the <a href="https://pydata-sphinx-theme.readthedocs.io/en/stable/index.html">PyData Sphinx Theme</a> 0.15.2.
+</p></div>
+      
+    </div>
+  
+</div>
+
+  </footer>
 
   <style>
     /* Sidebar header (and topbar for mobile) */
@@ -511,6 +1048,5 @@ direction of the flow output, the starting coordinate is on your left and the en
     }
   </style>
 
-
-</body>
+  </body>
 </html>
