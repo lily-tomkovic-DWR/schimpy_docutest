@@ -125,7 +125,7 @@ todo_include_todos = False
 import sphinx_rtd_theme
 
 html_theme = 'sphinx_rtd_theme'
-html_logo = "./_static/logo6.png"
+html_logo = "./_static/logo3.png"
 html_theme_options = {
     'logo_only': True,
     'display_version': False,

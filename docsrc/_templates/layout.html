@@ -1,5 +1,17 @@
 {% extends "!layout.html" %}
 
+{% block footer %} {{ super() }}
+
+  <style>
+    /* Sidebar header (and topbar for mobile) */
+    .wy-side-nav-search, .wy-nav-top {
+      background: #7fafda;
+    }
+    /* Sidebar */
+    .wy-nav-side {
+      background: #e98fad;
+    }
+  </style>
 
 {% block rootrellink %}
         <li><a href="{{ pathto('index') }}">home</a>|&nbsp;</li>
@@ -9,7 +21,7 @@
 
 {% block relbar1 %}
 
-<div style="background-color: white; text-align: left; padding: 10px 10px 15px 15px">
+<div style="background-color: white">
 <a href="{{ pathto('index') }}"><img src="{{ pathto('_static/logo6.png',1) }}" border="0" alt="Bay-Delta SELFE Tools"/></a>
 </div>
 {{ super() }}
