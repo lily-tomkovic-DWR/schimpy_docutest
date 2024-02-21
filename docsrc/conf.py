@@ -40,7 +40,7 @@ import schimpy
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom ones.
 extensions = ['nbsphinx', 'sphinx.ext.mathjax',
-          'sphinx.ext.autodoc', 'sphinx.ext.viewcode',
+          'sphinx.ext.autodoc', #'sphinx.ext.viewcode',
           'matplotlib.sphinxext.mathmpl',
           'matplotlib.sphinxext.plot_directive',
           'IPython.sphinxext.ipython_directive',
@@ -128,8 +128,7 @@ html_theme = 'sphinx_rtd_theme'
 html_logo = "./_static/logo3.png"
 html_theme_options = {
     'logo_only': True,
-    'display_version': False,
-    'style_nav_header_background': '#AFC1C4',
+    'display_version': False
 }
 
 # Theme options are theme-specific and customize the look and feel of a
