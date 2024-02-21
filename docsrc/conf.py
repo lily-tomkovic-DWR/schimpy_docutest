@@ -129,6 +129,7 @@ html_logo = "./_static/logo3.png"
 html_theme_options = {
     'logo_only': True,
     'display_version': False,
+    'style_nav_header_background': '#AFC1C4',
 }
 
 # Theme options are theme-specific and customize the look and feel of a
